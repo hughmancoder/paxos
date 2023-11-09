@@ -4,7 +4,11 @@ GRADLEW := ./gradlew
 
 .PHONY: build clean test run
 
-default: build
+default:
+	@echo "Setting ./gradlew executable permissions..."
+	chmod +x ./gradlew
+	@echo "Compiling the project..."
+	./gradlew compileJava
 
 build:
 	@echo "Building the project..."
