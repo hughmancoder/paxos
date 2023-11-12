@@ -6,7 +6,7 @@ Author: Hugh Signoriello
 
 A fault-tolerant and multithreaded distributed system Java implementation of Leslie Lamport's Paxos algorithm, which aims to reach consensus for a proposed value in a distributed system. Each member can act as one of a Proposer, Acceptor, or Learner for a given election round.
 
-## Assessment
+## Test coverage
 
 The Paxos implementation is tested under various conditions to ensure its reliability and correctness.
 
